@@ -1,0 +1,57 @@
+@import url("https://fonts.cdnfonts.com/css/roses-are-ff0000");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roses are FF0000", sans-serif;
+}
+body {
+  background-color: #000000;
+  color: #fff;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+#canvas {
+  background-size: cover;
+  border-radius: 5px;
+  width: auto;
+}
+#source {
+  display: none;
+}
+#ball {
+  display: none;
+}
+#ghost {
+  display: none;
+}
+.timeOut {
+  color: red;
+}
+.bg {
+  background-image: url("img/01073865290819.5d61d475f0072.jpg");
+}
+.win-bg {
+  background-image: url("img/win-bg.jpg");
+}
+.info {
+  /* background-color: #b0b0b0; */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
